@@ -1,10 +1,10 @@
 #include<Mouse.h>
 
-#define L_CLICK 2
-#define R_CLICK 3
-#define STICK_CLICK 4
-#define STICK_X A0
-#define STICK_Y A1
+#define L_CLICK 10
+#define R_CLICK 16
+#define STICK_CLICK A1
+#define STICK_X A3
+#define STICK_Y A2
 
 const int sensitivity = 50;
 int xCenter;
